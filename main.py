@@ -19,7 +19,7 @@ def stitchVideo(sourcePath):
         if(counter%2!=0):
             continue
         stitcher.add_image(frame)
-        result = stitcher.image()
+        #result = stitcher.image()
 
     cv2.imwrite("finalmod10.png", result)
 
